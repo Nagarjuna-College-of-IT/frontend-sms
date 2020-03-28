@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Nagarjuna College of IT | Student Management System | Rekha Bhandari
+    </title>
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="./public/fontawesome-free-5.13.0-web/css/all.min.css">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="topBar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <a class="brand">Nagarjuna College of IT</a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+                        <a href="">Rekha Bhandari <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main starts -->
+    <main>
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <!-- here the class active is used to hide the sidebar -->
+            <nav id="sidebar" class="active">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i> Home
+                    </li>
+                    <li>
+                        <i class="fas fa-newspaper"></i> Attendance
+                    </li>
+                    <li>
+                        <i class="fas fa-dollar-sign"></i> Fees Details
+                    </li>
+                    <li>
+                        <i class="fas fa-list-ul"></i> Assignments
+                    </li>
+                    <li>
+                        <i class="far fa-question-circle"></i> Examination
+                    </li>
+                    <li>
+                        <i class="fas fa-scroll"></i> Results
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i> Messages
+                    </li>
+                    <li>
+                        <i class="fas fa-gift"></i> Opportunities
+                    </li>
+                    <li>
+                        <i class="fas fa-code"></i> Practicals
+                    </li>
+                    <li>
+                        <i class="far fa-check-circle"></i> Approved Application
+                    </li>
+                    <li>
+                        <i class="far fa-user"></i> Faculty
+                    </li>
+                </ul>
+            </nav>
+            <!-- sidebar ends -->
+
+            <!-- Page Content  -->
+            <div id="content">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+
+            <div class="container">
+                <!-- page title starts -->
+                <div class="pageTitle">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <i class="fas fa-home"></i> Home
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+                            Today: <span class="date">Mar 24</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- page title ends -->
+                <hr />
+
+                <!-- status cards starts -->
+                <div class="statusCards">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex">
+                            <div class="info">
+                                <h1>
+                                    999
+                                </h1>
+                                <span class="cardTitle">Assignments</span>
+                            </div>
+                            <div class="icon align-self-center">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex">
+                            <div class="info">
+                                <h1>
+                                    80%
+                                </h1>
+                                <span class="cardTitle">Attendance</span>
+                            </div>
+                            <div class="icon align-self-center">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex">
+                            <div class="info">
+                                <h1>
+                                    999
+                                </h1>
+                                <span class="cardTitle">Messages</span>
+                            </div>
+                            <div class="icon align-self-center">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex">
+                            <div class="info">
+                                <h1>
+                                    16
+                                </h1>
+                                <span class="cardTitle">Opportunities</span>
+                            </div>
+                            <div class="icon align-self-center">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- status card ends -->
+
+                <!-- graph and message starts -->
+                <div class="graphAndMessage">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                            <div class="graph">
+                                <i class="fas fa-chart-bar"></i> My Status
+                                <hr />
+                                <div id="chart"></div>
+                            </div>
+                            <div class="messages">
+                                <i class="far fa-envelope"></i> My Messages
+                                <hr />
+
+                                <!-- this is first card -->
+                                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+                                    <div
+                                        class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                                        <div class="flex items-center">
+                                            <img class="w-10 h-10 rounded-full mr-4" src="./images/logo.png"
+                                                alt="Avatar of Jonathan Reinink">
+                                            <div class="text-sm">
+                                                <p class="text-gray-900 leading-none">Rekha Bhandari</p>
+                                                <p class="text-gray-600">5th Sem</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <!-- this is second card -->
+                                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+                                    <div
+                                        class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                                        <div class="flex items-center">
+                                            <img class="w-10 h-10 rounded-full mr-4" src="./images/logo.png"
+                                                alt="Avatar of Jonathan Reinink">
+                                            <div class="text-sm">
+                                                <p class="text-gray-900 leading-none">Rekha Bhandari</p>
+                                                <p class="text-gray-600">5th Sem</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <!-- this is third card -->
+                                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+                                    <div
+                                        class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                                        <div class="flex items-center">
+                                            <img class="w-10 h-10 rounded-full mr-4" src="./images/logo.png"
+                                                alt="Avatar of Jonathan Reinink">
+                                            <div class="text-sm">
+                                                <p class="text-gray-900 leading-none">Rekha Bhandari</p>
+                                                <p class="text-gray-600">5th Sem</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 breaker">
+                            <!-- 1st announce ment -->
+                            <div class="announcements">
+                                <i class="fas fa-volume-up"></i> My Announcements
+                                <hr />
+                                <!-- announcement card -->
+                                <div class="announcementCard">
+                                    <div class="announcementTitle">
+                                        College is going to be closed on April 25.
+                                    </div>
+                                    <div class="postedDate">
+                                        <i class="far fa-clock"></i> 24-04-2020, 10:30 AM
+                                    </div>
+    
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quis laboriosam
+                                        dolor, at eos maiores obcaecati autem, impedit incidunt doloribus fuga officiis!
+                                        Vitae, ex aliquid quo mollitia fuga sed sequi.
+                                    </p>
+                                    <div class="postedBy">
+                                        Thanks,<br/>
+                                        Mangal, Director!
+                                    </div>
+                                </div>
+                                <hr/>
+                                <!-- announcement card -->
+                                <div class="announcementCard">
+                                    <div class="announcementTitle">
+                                        College is going to be closed on April 25.
+                                    </div>
+                                    <div class="postedDate">
+                                        <i class="far fa-clock"></i> 24-04-2020, 10:30 AM
+                                    </div>
+    
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quis laboriosam
+                                        dolor, at eos maiores obcaecati autem, impedit incidunt doloribus fuga officiis!
+                                        Vitae, ex aliquid quo mollitia fuga sed sequi.
+                                    </p>
+                                    <div class="postedBy">
+                                        Thanks,<br/>
+                                        Mangal, Director!
+                                    </div>
+                                </div>
+                                <hr/>
+                                <!-- announcement card -->
+                                <div class="announcementCard">
+                                    <div class="announcementTitle">
+                                        College is going to be closed on April 25.
+                                    </div>
+                                    <div class="postedDate">
+                                        <i class="far fa-clock"></i> 24-04-2020, 10:30 AM
+                                    </div>
+    
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quis laboriosam
+                                        dolor, at eos maiores obcaecati autem, impedit incidunt doloribus fuga officiis!
+                                        Vitae, ex aliquid quo mollitia fuga sed sequi.
+                                    </p>
+                                    <div class="postedBy">
+                                        Thanks,<br/>
+                                        Mangal, Director!
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <!-- graph and message starts -->
+            </div>
+        </div>
+
+    </main>
+    <!-- main ends -->
+
+    <!-- footer starts -->
+    <footer>
+        
+    </footer>
+    <!-- footer ends -->
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <!-- chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- custom js -->
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

@@ -160,6 +160,19 @@ main {
 }
 // main ends
 
+footer{
+  margin-top: 30px;
+  .container{
+    border-top: 0.5px solid #6a6a6a;
+    padding: 15px 0;
+  }
+  
+  ul li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   main {
     .wrapper {

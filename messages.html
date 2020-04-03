@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Nagarjuna College of IT | Student Management System | Rekha Bhandari
+    </title>
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="./public/fontawesome-free-5.13.0-web/css/all.min.css">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- floating action button starts -->
+    <a href="" class="float-action-button">
+        <i class="far fa-edit"></i>
+    </a>
+    <!-- floating action button ends -->
+    <!-- header starts -->
+    <header>
+        <div class="topBar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <a class="brand">Nagarjuna College of IT</a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+                        <a href="">Rekha Bhandari <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main starts -->
+    <main>
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <!-- here the class active is used to hide the sidebar -->
+            <nav id="sidebar" class="active">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i> Home
+                    </li>
+                    <li>
+                        <i class="fas fa-newspaper"></i> Attendance
+                    </li>
+                    <li>
+                        <i class="fas fa-dollar-sign"></i> Fees Details
+                    </li>
+                    <li>
+                        <i class="fas fa-list-ul"></i> Assignments
+                    </li>
+                    <li>
+                        <i class="far fa-question-circle"></i> Examination
+                    </li>
+                    <li>
+                        <i class="fas fa-scroll"></i> Results
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i> Messages
+                    </li>
+                    <li>
+                        <i class="fas fa-gift"></i> Opportunities
+                    </li>
+                    <li>
+                        <i class="fas fa-code"></i> Practicals
+                    </li>
+                    <li>
+                        <i class="far fa-check-circle"></i> Approved Application
+                    </li>
+                    <li>
+                        <i class="far fa-user"></i> Faculty
+                    </li>
+                </ul>
+            </nav>
+            <!-- sidebar ends -->
+
+            <!-- Page Content  -->
+            <div id="content">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+
+            <div class="container">
+                <!-- page title starts -->
+                <div class="pageTitle">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <i class="far fa-envelope"></i> Messages
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-right">
+                            Today: <span class="date">Mar 24</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- page title ends -->
+            </div>
+        </div>
+
+    </main>
+    <!-- main ends -->
+
+    <!-- footer starts -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    &copy; Nagarjuna College of IT. All Rights Reserved
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-right">
+                    <ul>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <!-- chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- custom js -->
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

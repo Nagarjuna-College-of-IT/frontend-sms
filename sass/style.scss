@@ -6,7 +6,19 @@ html {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
-
+.float-action-button {
+  position: fixed;
+  bottom: 60px;
+  right: 70px;
+  padding: 20px 25px;
+  font-size: 24px;
+  border-radius: 50%;
+  font-weight: 600;
+  background: #fff;
+  -webkit-box-shadow: -5px 4px 45px 21px rgba(116, 186, 255, 0.16);
+  -moz-box-shadow: -5px 4px 45px 21px rgba(116, 186, 255, 0.16);
+  box-shadow: -5px 4px 45px 21px rgba(116, 186, 255, 0.16);
+}
 // topbar starts
 .topBar {
   background: #74b9ff;
@@ -124,29 +136,29 @@ main {
           padding: 5px;
         }
 
-        .messages{
+        .messages {
           background: #fff;
           -webkit-box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           -moz-box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           padding: 5px;
-          margin-top: 30px
+          margin-top: 30px;
         }
 
-        .announcements{
+        .announcements {
           background: #fff;
           -webkit-box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           -moz-box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           box-shadow: 7px 9px 47px -23px rgba(112, 161, 255, 0.45);
           padding: 15px;
-          .announcementCard{
-            .announcementTitle{
+          .announcementCard {
+            .announcementTitle {
               font-weight: 600;
             }
-            .postedDate{
+            .postedDate {
               color: #6a6a6a;
             }
-            p{
+            p {
               margin: 30px 0;
             }
             padding: 20px 0;
@@ -160,14 +172,14 @@ main {
 }
 // main ends
 
-footer{
+footer {
   margin-top: 30px;
-  .container{
+  .container {
     border-top: 0.5px solid #6a6a6a;
     padding: 15px 0;
   }
-  
-  ul li{
+
+  ul li {
     display: inline-block;
     margin-left: 20px;
   }
@@ -240,8 +252,8 @@ footer{
             }
           }
         }
-        .graphAndMessage{
-          .breaker{
+        .graphAndMessage {
+          .breaker {
             margin-top: 30px;
           }
         }
